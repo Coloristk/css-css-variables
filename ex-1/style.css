@@ -4,4 +4,30 @@
   margin: 0;
 }
 
-/* Start coding here */
+:root {
+  --Branding: #ff7f50;
+  --Secondary: cornsilk;
+  --Highlight: #d2691e;
+  --Muted: #a9a9a9;
+  --Level1: 1px;
+  --Level2: 5px;
+  --Level3: 10px;
+  --Level4: 15px;
+  --Level5: 20px; /* เพิ่ม ; ที่นี่ */
+  --Small: 12px;
+  --Medium: 16px;
+  --Large: 20px;
+  --ExtraLarge: 30px;
+  --DoubleExtraLarge: 50px;
+  --TripleExtraLarge: 100px;
+}
+
+.introduction {
+  background-color: var(--Secondary);
+  padding: var(--Level5);
+}
+
+h1 {
+  color: var(--Branding);
+  font-size: var(--TripleExtraLarge);
+}
