@@ -4,4 +4,42 @@
   margin: 0;
 }
 
-/* Start coding here */
+:root {
+  /* Color */
+  --branding-color: #ff7f50;
+  --Secondary-Color: cornsilk;
+  --Highlight-Color: #d2691e;
+  --Muted-Color: #a9a9a9;
+
+  /* Margin */
+  --margin-Level-1: 1px;
+  --margin-Level-2: 5px;
+  --margin-Level-3: 10px;
+  --margin-Level-4: 15px;
+  --margin-Level-5: 20px;
+
+  /* padding */
+  --padding-Level-1: 1px;
+  --padding-Level-2: 5px;
+  --padding-Level-3: 10px;
+  --padding-Level-4: 15px;
+  --padding-Level-5: 20px;
+
+  /* Font */
+  --font-Small: 12px;
+  --font-Medium: 16px;
+  --font-Large: 20px;
+  --font-Extra-Large: 30px;
+  --font-Double-Extra-Large: 50px;
+  --font-Triple-Extra-Large: 100px;
+}
+
+.introduction {
+  background-color: var(--Secondary-Color);
+  padding: var(--padding-Level-5);
+
+  h1 {
+    color: var(--branding-color);
+    font-size: var(--font-Triple-Extra-Large);
+  }
+}
